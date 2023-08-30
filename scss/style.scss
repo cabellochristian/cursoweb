@@ -61,7 +61,7 @@
     .open-cel i {
         font-size: 35px;
     }
-    .open-cel:hover + .navegacion-celular {
+    .open-cel:hover + .navegacion-celular, .navegacion-celular:hover {
         height: 300px;
         opacity: 1;
         
@@ -79,7 +79,7 @@
         background: cyan;
         position: fixed;
         z-index: 10000;
-        transition: all 1s;
+        transition: all 0.5s;
     }
     .logo_nav img {
        padding: 20px 0;
